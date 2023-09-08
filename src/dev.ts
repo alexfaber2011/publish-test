@@ -1,3 +1,3 @@
-import { Foo } from './main.ts'
+import { Foo } from './main'
 
 new Foo().sayHello();
