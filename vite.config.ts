@@ -7,9 +7,9 @@ export default defineConfig({
     lib: {
       // Could also be a dictionary or array of multiple entry points
       entry: resolve(__dirname, 'src/main.ts'),
-      name: 'publish-test',
+      name: 'alexfaberllc-publish-test',
       // the proper extensions will be added
-      fileName: 'publish-test',
+      fileName: 'alexfaberllc-publish-test',
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled

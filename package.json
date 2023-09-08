@@ -1,16 +1,19 @@
 {
-  "name": "publish-test",
-  "version": "0.0.0",
+  "name": "alexfaberllc-publish-test",
+  "version": "0.0.1",
   "type": "module",
   "files": [
     "dist"
   ],
-  "main": "./dist/publish-test.umd.cjs",
-  "module": "./dist/publish-test.js",
+  "repository": {
+    "url": "https://github.com/alexfaber2011/publish-test"
+  },
+  "main": "./dist/alexfaberllc-publish-test.umd.cjs",
+  "module": "./dist/alexfaberllc-publish-test.js",
   "exports": {
     ".": {
-      "import": "./dist/publish-test.js",
-      "require": "./dist/publish-test.umd.cjs"
+      "import": "./dist/alexfaberllc-publish-test.js",
+      "require": "./dist/alexfaberllc-publish-test.umd.cjs"
     }
   },
   "scripts": {
